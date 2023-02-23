@@ -8,21 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		F8C8DBFF29A64C7F00DE06ED /* TodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DBFE29A64C7F00DE06ED /* TodoListAppApp.swift */; };
-		F8C8DC0129A64C7F00DE06ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC0029A64C7F00DE06ED /* ContentView.swift */; };
+		F8C8DC0129A64C7F00DE06ED /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC0029A64C7F00DE06ED /* TaskListView.swift */; };
 		F8C8DC0329A64C8000DE06ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C8DC0229A64C8000DE06ED /* Assets.xcassets */; };
 		F8C8DC0629A64C8000DE06ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C8DC0529A64C8000DE06ED /* Preview Assets.xcassets */; };
 		F8C8DC0829A64C8000DE06ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC0729A64C8000DE06ED /* Persistence.swift */; };
 		F8C8DC0B29A64C8000DE06ED /* TodoListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC0929A64C8000DE06ED /* TodoListApp.xcdatamodeld */; };
+		F8C8DC1229A64E5100DE06ED /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */; };
+		F8C8DC1529A64EC600DE06ED /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */; };
+		F8C8DC1729A6584400DE06ED /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1629A6584400DE06ED /* DateHolder.swift */; };
+		F8C8DC1929A65D5300DE06ED /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1829A65D5300DE06ED /* TaskCell.swift */; };
+		F8C8DC1B29A65E7D00DE06ED /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */; };
+		F8C8DC1E29A65F6F00DE06ED /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1D29A65F6F00DE06ED /* TaskItemExtension.swift */; };
+		F8C8DC2029A6671B00DE06ED /* SampleSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */; };
+		F8C8DC2229A7640D00DE06ED /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC2129A7640D00DE06ED /* ContentCell.swift */; };
+		F8C8DC2429A76DB100DE06ED /* SwipableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */; };
+		F8C8DC2729A776FB00DE06ED /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = F8C8DC2629A776FB00DE06ED /* RiveRuntime */; };
+		F8C8DC2E29A7A7F700DE06ED /* swipe_interaction.riv in Resources */ = {isa = PBXBuildFile; fileRef = F8C8DC2D29A7A7F700DE06ED /* swipe_interaction.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8C8DBFB29A64C7F00DE06ED /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C8DBFE29A64C7F00DE06ED /* TodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppApp.swift; sourceTree = "<group>"; };
-		F8C8DC0029A64C7F00DE06ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8C8DC0029A64C7F00DE06ED /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		F8C8DC0229A64C8000DE06ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8C8DC0529A64C8000DE06ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8C8DC0729A64C8000DE06ED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F8C8DC0A29A64C8000DE06ED /* TodoListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoListApp.xcdatamodel; sourceTree = "<group>"; };
+		F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		F8C8DC1629A6584400DE06ED /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		F8C8DC1829A65D5300DE06ED /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		F8C8DC1D29A65F6F00DE06ED /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
+		F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipe.swift; sourceTree = "<group>"; };
+		F8C8DC2129A7640D00DE06ED /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCell.swift; sourceTree = "<group>"; };
+		F8C8DC2D29A7A7F700DE06ED /* swipe_interaction.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = swipe_interaction.riv; path = ../../../../../../Downloads/swipe_interaction.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C8DC2729A776FB00DE06ED /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +77,14 @@
 		F8C8DBFD29A64C7F00DE06ED /* TodoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				F8C8DC2829A7772200DE06ED /* Animations */,
+				F8C8DC1C29A65F3700DE06ED /* Model */,
+				F8C8DC1329A64EA700DE06ED /* Views */,
 				F8C8DBFE29A64C7F00DE06ED /* TodoListAppApp.swift */,
-				F8C8DC0029A64C7F00DE06ED /* ContentView.swift */,
 				F8C8DC0229A64C8000DE06ED /* Assets.xcassets */,
-				F8C8DC0729A64C8000DE06ED /* Persistence.swift */,
 				F8C8DC0929A64C8000DE06ED /* TodoListApp.xcdatamodeld */,
 				F8C8DC0429A64C8000DE06ED /* Preview Content */,
+				F8C8DC1629A6584400DE06ED /* DateHolder.swift */,
 			);
 			path = TodoListApp;
 			sourceTree = "<group>";
@@ -71,6 +95,38 @@
 				F8C8DC0529A64C8000DE06ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8C8DC1329A64EA700DE06ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */,
+				F8C8DC1829A65D5300DE06ED /* TaskCell.swift */,
+				F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */,
+				F8C8DC0029A64C7F00DE06ED /* TaskListView.swift */,
+				F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */,
+				F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */,
+				F8C8DC2129A7640D00DE06ED /* ContentCell.swift */,
+				F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8C8DC1C29A65F3700DE06ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8DC0729A64C8000DE06ED /* Persistence.swift */,
+				F8C8DC1D29A65F6F00DE06ED /* TaskItemExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8C8DC2829A7772200DE06ED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8DC2D29A7A7F700DE06ED /* swipe_interaction.riv */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +145,9 @@
 			dependencies = (
 			);
 			name = TodoListApp;
+			packageProductDependencies = (
+				F8C8DC2629A776FB00DE06ED /* RiveRuntime */,
+			);
 			productName = TodoListApp;
 			productReference = F8C8DBFB29A64C7F00DE06ED /* TodoListApp.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +176,9 @@
 				Base,
 			);
 			mainGroup = F8C8DBF229A64C7F00DE06ED;
+			packageReferences = (
+				F8C8DC2529A776FB00DE06ED /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = F8C8DBFC29A64C7F00DE06ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C8DC0629A64C8000DE06ED /* Preview Assets.xcassets in Resources */,
+				F8C8DC2E29A7A7F700DE06ED /* swipe_interaction.riv in Resources */,
 				F8C8DC0329A64C8000DE06ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C8DC1729A6584400DE06ED /* DateHolder.swift in Sources */,
+				F8C8DC1E29A65F6F00DE06ED /* TaskItemExtension.swift in Sources */,
 				F8C8DC0829A64C8000DE06ED /* Persistence.swift in Sources */,
-				F8C8DC0129A64C7F00DE06ED /* ContentView.swift in Sources */,
+				F8C8DC2229A7640D00DE06ED /* ContentCell.swift in Sources */,
+				F8C8DC0129A64C7F00DE06ED /* TaskListView.swift in Sources */,
+				F8C8DC2429A76DB100DE06ED /* SwipableCell.swift in Sources */,
+				F8C8DC1229A64E5100DE06ED /* FloatingButton.swift in Sources */,
+				F8C8DC1B29A65E7D00DE06ED /* CheckBoxView.swift in Sources */,
+				F8C8DC1929A65D5300DE06ED /* TaskCell.swift in Sources */,
+				F8C8DC1529A64EC600DE06ED /* TaskEditView.swift in Sources */,
+				F8C8DC2029A6671B00DE06ED /* SampleSwipe.swift in Sources */,
 				F8C8DBFF29A64C7F00DE06ED /* TodoListAppApp.swift in Sources */,
 				F8C8DC0B29A64C8000DE06ED /* TodoListApp.xcdatamodeld in Sources */,
 			);
@@ -347,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8C8DC2529A776FB00DE06ED /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8C8DC2629A776FB00DE06ED /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8C8DC2529A776FB00DE06ED /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F8C8DC0929A64C8000DE06ED /* TodoListApp.xcdatamodeld */ = {
