@@ -16,11 +16,7 @@
 		F8C8DC1229A64E5100DE06ED /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */; };
 		F8C8DC1529A64EC600DE06ED /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */; };
 		F8C8DC1729A6584400DE06ED /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1629A6584400DE06ED /* DateHolder.swift */; };
-		F8C8DC1929A65D5300DE06ED /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1829A65D5300DE06ED /* TaskCell.swift */; };
-		F8C8DC1B29A65E7D00DE06ED /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */; };
 		F8C8DC1E29A65F6F00DE06ED /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1D29A65F6F00DE06ED /* TaskItemExtension.swift */; };
-		F8C8DC2029A6671B00DE06ED /* SampleSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */; };
-		F8C8DC2229A7640D00DE06ED /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC2129A7640D00DE06ED /* ContentCell.swift */; };
 		F8C8DC2429A76DB100DE06ED /* SwipableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */; };
 		F8C8DC2729A776FB00DE06ED /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = F8C8DC2629A776FB00DE06ED /* RiveRuntime */; };
 		F8C8DC2E29A7A7F700DE06ED /* swipe_interaction.riv in Resources */ = {isa = PBXBuildFile; fileRef = F8C8DC2D29A7A7F700DE06ED /* swipe_interaction.riv */; };
@@ -37,11 +33,7 @@
 		F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		F8C8DC1629A6584400DE06ED /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
-		F8C8DC1829A65D5300DE06ED /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
-		F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		F8C8DC1D29A65F6F00DE06ED /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
-		F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipe.swift; sourceTree = "<group>"; };
-		F8C8DC2129A7640D00DE06ED /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 		F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCell.swift; sourceTree = "<group>"; };
 		F8C8DC2D29A7A7F700DE06ED /* swipe_interaction.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = swipe_interaction.riv; path = ../../../../../../Downloads/swipe_interaction.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,13 +92,9 @@
 		F8C8DC1329A64EA700DE06ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F8C8DC1A29A65E7C00DE06ED /* CheckBoxView.swift */,
-				F8C8DC1829A65D5300DE06ED /* TaskCell.swift */,
 				F8C8DC1129A64E5100DE06ED /* FloatingButton.swift */,
 				F8C8DC0029A64C7F00DE06ED /* TaskListView.swift */,
 				F8C8DC1429A64EC600DE06ED /* TaskEditView.swift */,
-				F8C8DC1F29A6671B00DE06ED /* SampleSwipe.swift */,
-				F8C8DC2129A7640D00DE06ED /* ContentCell.swift */,
 				F8C8DC2329A76DB100DE06ED /* SwipableCell.swift */,
 			);
 			path = Views;
@@ -209,14 +197,10 @@
 				F8C8DC1729A6584400DE06ED /* DateHolder.swift in Sources */,
 				F8C8DC1E29A65F6F00DE06ED /* TaskItemExtension.swift in Sources */,
 				F8C8DC0829A64C8000DE06ED /* Persistence.swift in Sources */,
-				F8C8DC2229A7640D00DE06ED /* ContentCell.swift in Sources */,
 				F8C8DC0129A64C7F00DE06ED /* TaskListView.swift in Sources */,
 				F8C8DC2429A76DB100DE06ED /* SwipableCell.swift in Sources */,
 				F8C8DC1229A64E5100DE06ED /* FloatingButton.swift in Sources */,
-				F8C8DC1B29A65E7D00DE06ED /* CheckBoxView.swift in Sources */,
-				F8C8DC1929A65D5300DE06ED /* TaskCell.swift in Sources */,
 				F8C8DC1529A64EC600DE06ED /* TaskEditView.swift in Sources */,
-				F8C8DC2029A6671B00DE06ED /* SampleSwipe.swift in Sources */,
 				F8C8DBFF29A64C7F00DE06ED /* TodoListAppApp.swift in Sources */,
 				F8C8DC0B29A64C8000DE06ED /* TodoListApp.xcdatamodeld in Sources */,
 			);

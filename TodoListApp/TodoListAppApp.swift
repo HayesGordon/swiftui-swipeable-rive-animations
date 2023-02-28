@@ -18,6 +18,7 @@ struct TodoListAppApp: App {
             TaskListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(dateHolder)
+                .environment(\.colorScheme, .dark)
             
 //            SampleView()
         }

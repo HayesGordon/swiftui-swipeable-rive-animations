@@ -20,40 +20,51 @@ struct TaskListView: View {
     
     @State private var points: Int = 0
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
+    
+    
     var body: some View {
         NavigationView {
-            VStack (alignment: HorizontalAlignment.leading) {
-//                Text("XP: \(points)").frame(alignment: Alignment.leading).padding(16)
+            ZStack {
+                Color("Background")
+                    .edgesIgnoringSafeArea(.all)
                 
-                
-                ZStack{
+                VStack (alignment: HorizontalAlignment.leading) {
+                    Text("XP: \(points)").frame(alignment: Alignment.leading).padding(16).foregroundColor( (points>=0) ? .green : .red).font(Font.headline.weight(.bold))
                     
-                    ScrollView {
-                        LazyVStack.init(spacing: 0, pinnedViews: [.sectionHeaders], content: {
-                            ForEach(items, id: \.self) { taskItem in
-                                NavigationLink(destination: TaskEditView(passedTaskItem: taskItem, initialDate: Date())
-                                    .environmentObject(dateHolder))
-                                {
-                                    ContentCell(data: taskItem.name ?? "")
-                                        
-                                        .addRiveSwipeAction(onSwipeLeft: {
-                                            print("swipe left")
-                                            points -= 10
-                                        }, onSwipeRight: {
-                                            points += 10
-                                            print("swipe right")
-                                        })
+                    
+                    ZStack{
+                        
+                        ScrollView {
+                            LazyVStack.init(spacing: 0, pinnedViews: [.sectionHeaders], content: {
+                                ForEach(items, id: \.self) { taskItem in
+                                    NavigationLink(destination: TaskEditView(passedTaskItem: taskItem, initialDate: Date())
+                                        .environmentObject(dateHolder))
+                                    {
+                                        ContentCell(data: taskItem.name ?? "")
+                                            .addRiveSwipeAction(
+                                                onSwipeLeft: {
+                                                    points -= 10
+                                                }, onSwipeRight: {
+                                                    points += 10
+                                                })
+                                            .padding(8)
+                                    }
+                                    
                                 }
-                                
-                            }
-                        })
-                    }.navigationTitle("Daily To Do")
-                    
-                    ZStack(alignment: .bottom) {
-                        Color.clear
-                        FloatingButton().environmentObject(dateHolder)
+                            })
+                        }.navigationTitle("Daily Task").foregroundColor(.white)
+                        
+                        ZStack(alignment: .bottom) {
+                            Color.clear
+                            FloatingButton().environmentObject(dateHolder)
+                        }
+                        
                     }
-                    
                 }
             }
         }
